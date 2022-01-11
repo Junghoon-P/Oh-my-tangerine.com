@@ -5,6 +5,8 @@ const theme = {
   fontColor: "#1D1D1D",
   subFontColor: "#CBCBCB",
   mainColor: "#EA7F42",
+  borderColor: "#DBDBDB",
+  subFontColor2: "#767676",
 
   setFlex: (
     justifyContent = "center",
