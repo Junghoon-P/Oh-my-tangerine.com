@@ -58,6 +58,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+button {
+  outline: none;
+  background: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+a {
+  cursor: pointer;
+}
+input {
+  outline: none;
+  border: none;
+}
 
 `;
 
