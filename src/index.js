@@ -8,8 +8,10 @@ import { ThemeProvider } from "styled-components";
 
 ReactDOM.render(
   <ThemeProvider theme={theme}>
-    <Routes />
-    <GlobalStyle />
+    <section className="AppBody">
+      <Routes />
+      <GlobalStyle />
+    </section>
   </ThemeProvider>,
   document.getElementById("root")
 );

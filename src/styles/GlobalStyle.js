@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -19,7 +20,10 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
+	text-decoration: none;
+	color: inherit;
 	vertical-align: baseline;
+	font-family: 'Pretendard';
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -33,14 +37,21 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
+	background: #888;
+}
+
+.AppBody {
   position: absolute;
+  background: #fff;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 390px;
   height: 844px;
-  border: 1px solid purple;
-	line-height: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 14px #555;
+  line-height: 1;
+  overflow: hidden;
 }
 
 ol, ul, li {
