@@ -7,7 +7,7 @@ const Header = () => {
       <PrevButton>
         <Img src="./image/icon/icon-arrow-left.png" alt="" />
       </PrevButton>
-      <MoreButton>
+      <MoreButton type="button">
         <Img src="./image/icon/icon-more-vertical.png" alt="" />
       </MoreButton>
     </HeaderWrap>
