@@ -1,19 +1,21 @@
-import React from 'react'
-import styled from 'styled-components';
-import UserInfo from './UserInfo';
+import React from "react";
+import styled from "styled-components";
+import UserInfo from "./UserInfo";
 
 const Feed = () => {
   return (
-    <FeedWrap>
+    <Container>
       <UserInfo />
       <FeedContents>
         <FeedText>
-          옷을 인생을 그러므로 없으면 것은 이상은 것은 우리의 위하여, 뿐이다. 이상의 청춘의 뼈 따뜻한 그들의 그와 약동하다. 대고, 못할 넣는 풍부하게 뛰노는 인생의 힘있다.
+          옷을 인생을 그러므로 없으면 것은 이상은 것은 우리의 위하여, 뿐이다.
+          이상의 청춘의 뼈 따뜻한 그들의 그와 약동하다. 대고, 못할 넣는 풍부하게
+          뛰노는 인생의 힘있다.
         </FeedText>
-        <FeedImage src='./image/post-img-example.png' />
+        <FeedImage src="./image/post-img-example.png" alt="피드 이미지" />
         <FeedLikeAndChat>
           <LikeButton>
-            <LikeImg src="./image/icon/icon-heart.png" alt="" />
+            <LikeImg src="./image/icon/icon-heart.png" alt="피드 이미지" />
             <LikeCount>58</LikeCount>
           </LikeButton>
           <ChatButton>
@@ -21,17 +23,15 @@ const Feed = () => {
             <ChatCount>12</ChatCount>
           </ChatButton>
         </FeedLikeAndChat>
-        <FeedDate>
-          2020년 10월 21일
-        </FeedDate>
+        <FeedDate>2020년 10월 21일</FeedDate>
       </FeedContents>
-    </FeedWrap>
+    </Container>
   );
 };
 
-const FeedWrap = styled.article`
+const Container = styled.section`
   padding: 0 16px;
-  padding-top: 68px;
+  padding-top: 20px;
   padding-bottom: 24px;
 `;
 
