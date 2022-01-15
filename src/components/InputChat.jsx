@@ -6,7 +6,7 @@ const InputChat = () => {
     <InputChatWrap>
       <Avatar src='./image/basic-profile-img.png' />
       <input type="text" placeholder='댓글 입력하기...' />
-      <SubmitButton type='submit'>게시</SubmitButton>
+      <SubmitButton type="submit">게시</SubmitButton>
     </InputChatWrap>
   );
 };
